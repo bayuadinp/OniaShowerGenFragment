@@ -3,13 +3,13 @@
 # ------------------------------------
 # GenXsecAnalyzer:
 # ------------------------------------
-# Before Filter: total cross section = 2.643e+09 +- 5.011e+07 pb
-# Filter efficiency (taking into account weights)= (4.49901) / (33.7301) = 1.334e-01 +- 1.092e-02
-# Filter efficiency (event-level)= (159) / (1025) = 1.551e-01 +- 1.131e-02    [TO BE USED IN MCM]
+# Before Filter: total cross section = 2.627e+09 +- 1.604e+07 pb
+# Filter efficiency (taking into account weights)= (0.1178) / (328.345) = 3.588e-04 +- 1.842e-04
+# Filter efficiency (event-level)= (6) / (10025) = 5.985e-04 +- 2.443e-04    [TO BE USED IN MCM]
 
-# After filter: final cross section = 3.526e+08 +- 2.962e+07 pb
+# After filter: final cross section = 9.426e+05 +- 4.840e+05 pb
 # After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
-# After filter: final equivalent lumi for 1M events (1/fb) = 2.836e-06 +- 2.383e-07
+# After filter: final equivalent lumi for 1M events (1/fb) = 1.061e-03 +- 5.447e-04
 
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
@@ -35,8 +35,8 @@ _generator = cms.EDFilter("Pythia8GeneratorFilter",
             'CharmoniumShower:g2ccbar(3S1)[3S1(8)]  = on,off',
 
             'OniaShower:alphaScale   = 1',
-            'OniaShower:ldmeFac      = 1000',					    
-            'ColourReconnection:mode = 0',
+            'OniaShower:ldmeFac      = 1',					    
+            'ColourReconnection:mode = 2',
 
             '443:onMode = off',            # ignore cross-section re-weighting (CSAMODE=6) since selecting wanted decay mode
             '443:onIfAny = 13 -13',

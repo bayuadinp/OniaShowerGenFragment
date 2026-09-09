@@ -3,13 +3,14 @@
 # ------------------------------------
 # GenXsecAnalyzer:
 # ------------------------------------
-# Before Filter: total cross section = 2.586e+09 +- 5.107e+07 pb
-# Filter efficiency (taking into account weights)= (5.38723) / (33.1461) = 1.625e-01 +- 1.208e-02
-# Filter efficiency (event-level)= (176) / (1025) = 1.717e-01 +- 1.178e-02    [TO BE USED IN MCM]
+# Before Filter: total cross section = 2.609e+09 +- 1.602e+07 pb
+# Filter efficiency (taking into account weights)= (0.206468) / (326.287) = 6.328e-04 +- 2.628e-04
+# Filter efficiency (event-level)= (7) / (10025) = 6.983e-04 +- 2.638e-04    [TO BE USED IN MCM]
 
-# After filter: final cross section = 4.204e+08 +- 3.232e+07 pb
+# After filter: final cross section = 1.651e+06 +- 6.859e+05 pb
 # After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
-# After filter: final equivalent lumi for 1M events (1/fb) = 2.379e-06 +- 1.829e-07
+# After filter: final equivalent lumi for 1M events (1/fb) = 6.056e-04 +- 2.516e-04
+
 
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
@@ -35,7 +36,7 @@ _generator = cms.EDFilter("Pythia8GeneratorFilter",
             'CharmoniumShower:g2ccbar(3S1)[3S1(8)]   = on,off',
 
             'OniaShower:alphaScale      = 1',
-            'OniaShower:ldmeFac         = 1000',					    
+            'OniaShower:ldmeFac         = 1',					    
             'ColourReconnection:mode    = 1',
             'BeamRemnants:remnantMode   = 1',
 
