@@ -12,7 +12,7 @@
 # After filter: final equivalent lumi for 1M events (1/fb) = 7.313e-04 +- 6.136e-05
 # TimeReport> Time report complete in 83.876 seconds
 
-# 3.79 sec/event, 332 kB/event
+# 3.79 sec/event, 248 kB/event
 
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
