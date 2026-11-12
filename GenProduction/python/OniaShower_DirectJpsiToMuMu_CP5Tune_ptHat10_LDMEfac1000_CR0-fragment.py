@@ -11,6 +11,7 @@
 # After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
 # After filter: final equivalent lumi for 1M events (1/fb) = 5.327e-06 +- 1.656e-07
 # TimeReport> Time report complete in 530.313 seconds 8 threads
+# 3.62 sec/output event, 390 kB/output event
 
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
