@@ -3,18 +3,6 @@
 # ------------------------------------
 # GenXsecAnalyzer:
 # ------------------------------------
-# Before Filter: total cross section = 1.795e+09 +- 3.366e+07 pb
-# Filter efficiency (taking into account weights)= (3.47019) / (32.4654) = 1.069e-01 +- 1.001e-02
-# Filter efficiency (event-level)= (122) / (1025) = 1.190e-01 +- 1.011e-02    [TO BE USED IN MCM]
-
-# After filter: final cross section = 1.919e+08 +- 1.832e+07 pb
-# After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
-# After filter: final equivalent lumi for 1M events (1/fb) = 5.212e-06 +- 4.975e-07
-
-
-# ------------------------------------
-# GenXsecAnalyzer:
-# ------------------------------------
 # Before Filter: total cross section = 2.639e+09 +- 1.612e+07 pb
 # Filter efficiency (taking into account weights)= (11.2436) / (324.075) = 3.469e-02 +- 1.868e-03
 # Filter efficiency (event-level)= (408) / (10000) = 4.080e-02 +- 1.978e-03    [TO BE USED IN MCM]
