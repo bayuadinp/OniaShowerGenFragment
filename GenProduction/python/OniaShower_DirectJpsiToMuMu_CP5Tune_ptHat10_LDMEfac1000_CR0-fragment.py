@@ -3,13 +3,15 @@
 # ------------------------------------
 # GenXsecAnalyzer:
 # ------------------------------------
-# Before Filter: total cross section = 1.795e+09 +- 3.366e+07 pb
-# Filter efficiency (taking into account weights)= (3.47019) / (32.4654) = 1.069e-01 +- 1.001e-02
-# Filter efficiency (event-level)= (122) / (1025) = 1.190e-01 +- 1.011e-02    [TO BE USED IN MCM]
+# Before Filter: total cross section = 1.805e+09 +- 1.090e+07 pb
+# Filter efficiency (taking into account weights)= (33.3118) / (320.333) = 1.040e-01 +- 3.170e-03
+# Filter efficiency (event-level)= (1172) / (10000) = 1.172e-01 +- 3.217e-03    [TO BE USED IN MCM]
 
-# After filter: final cross section = 1.919e+08 +- 1.832e+07 pb
+# After filter: final cross section = 1.877e+08 +- 5.834e+06 pb
 # After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
-# After filter: final equivalent lumi for 1M events (1/fb) = 5.212e-06 +- 4.975e-07
+# After filter: final equivalent lumi for 1M events (1/fb) = 5.327e-06 +- 1.656e-07
+# TimeReport> Time report complete in 530.313 seconds 8 threads
+
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunesRun3ECM13p6TeV.PythiaCP5Settings_cfi import *
